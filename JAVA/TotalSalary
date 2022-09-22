@@ -15,7 +15,7 @@ public class TotalSalary {
 		
 		//Taking input as a charachter like this cause we don't have anything like s.nextChar()
     
-    String grade = s.next();
+    		String grade = s.next();
 		char ch = grade.charAt(0);
 		
 		//totalSalary = basic + hra + da + allow – pf
@@ -37,7 +37,7 @@ public class TotalSalary {
 		totalSalary = (basic + hra + da + allow - pf);
 				
 		
-		System.out.println(Math.round(totalSalary));
+		System.out.println(Math.round(totalSalary)); //Math.round function used to round off the salary values, corresponding to this we need to mention import java.lang.Math;
 				
 
 	}
