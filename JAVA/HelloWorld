@@ -13,8 +13,11 @@ public class HelloWorld {
 		System.out.println("Let's do it.");
 		
 		
-			 
-			
+	//note that we've to tell computer upfront to break the line either by using \n or println	
+	//System.out.print("Hello World!");
+	//System.out.print("Hello World!"); 
+	//output of the line17 and 18 would be: Hello World!Hello World!
+	
 	}
 
 }
