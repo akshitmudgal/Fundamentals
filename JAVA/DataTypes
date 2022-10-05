@@ -1,0 +1,38 @@
+
+public class DataTypes {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Binary is a base two no. system having digits 0 and 1. 
+		//Each individual digit is called a bit.
+		// 8 bits = 1 byte
+		
+		//data types tells us about the size and nature of the variable
+
+		//integer type
+		byte b = 10;  //1byte  = 8 bits
+		short s = 39; //2bytes =  16 bits
+		int i = 98;	  //4bytes = 32bits
+		long l = 214; //8bytes 
+		
+		//the more the bytes you have bigger the no. you can store in.	
+		
+		//float type
+		double d = 20.5; //8bytes, double has more precision than float, by precison I mean upto no. of decimal places.
+		float f = 25.5f;
+		
+		//character
+		
+		char c ='a'; //had it been in double quotes then it'd be a string
+		
+		//boolean can have either true or false value.
+		
+		boolean b1 = true;
+		boolean b2 = false;
+		
+	
+		
+	}
+
+}
