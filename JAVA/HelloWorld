@@ -1,0 +1,20 @@
+package fundamentals;
+
+public class HelloWorld {
+	// main is the starting block as that in flowchart
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//println prints a new line at the end
+		System.out.println("Hello World!");
+		//same could also be done be using \n
+		System.out.print("Hello!\n");
+		System.out.println("Excited! Getting started with JAVA.");
+		System.out.println("Let's do it.");
+		
+		
+			 
+			
+	}
+
+}
