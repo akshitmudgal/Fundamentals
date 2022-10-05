@@ -1,0 +1,20 @@
+package fundamentals;
+
+public class AddTwoNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 10; //don't miss the semicolon
+		int b = 20;
+		int c = a + b;
+		
+		// declaring variables : we wanted system to give us a space where we can store 10(a), 20(b) and their sum(c)
+		// writing int(data type) before a variable tells system how much space to allocate and what kind of data variable will be storing.
+		
+		System.out.println(c);
+		
+
+	}
+
+}
