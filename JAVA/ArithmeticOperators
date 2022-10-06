@@ -1,0 +1,49 @@
+
+import java.util.Scanner;
+
+public class ArithmeticOperators {
+
+	public static void main(String[] args) {
+		
+    int a = 50;
+    int b = 20;
+    int sum = a + b;
+		int diff = a - b;
+    int pro = a * b;
+    int quot = a / b
+    int rem = a % b    
+		System.out.println(sum);
+    System.out.println(diff);
+    System.out.println(pro);
+    System.out.println(quot);
+    System.out.println(rem);
+    System.out.println(sum);
+		
+	
+		 // interesting division operator: what if I store the value of a/b (both being integer) in double variable
+		    
+		 double quot_d = a/b;
+		 System.out.println(quot_d);
+		    
+		//answer is not 2.5 because we have a and b both as integers and on performing integer division answer is supposed to be an integer,  but we stored it in double thus its 2.0
+		
+		    //to print 2.5 as an answer, we have to fread inputs in double format
+		    double quot_db = 50.0/20.0;
+		    System.out.println(quot_db);
+        
+    // result of operations performed on double/float and integer value will be double/float, provided it being stored in double/float variable else sytem throws Type mismatch ERROR
+
+		  double ans = a-10.4;
+      System.out.println(ans); 
+      
+    //error code: can't conver double/float to int
+    
+    int answ = a - 10.4;
+    System.out,println(answ
+    
+      
+      
+		
+	}
+
+}
