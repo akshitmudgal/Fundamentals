@@ -1,0 +1,30 @@
+package practice;
+
+import java.util.*;
+
+public class findcharcase {
+
+	public static void main(String[] args) {
+		// Taking character as an input
+
+		Scanner s  = new Scanner(System.in);
+		String str = s.next();
+		char ch = str.charAt(0);
+    
+    
+    //condition check for UPPERCASE alphabet
+		if(ch >= 'A' && ch <= 'Z') {
+			System.out.println(1);
+
+		}
+    //condition check for lowercase alphabet
+		else if(ch >= 'a' && ch <= 'z') {
+			System.out.println(0);
+		}
+    //condition check for non-characters
+		else {
+			System.out.println(-1);
+		}
+	}
+
+}
