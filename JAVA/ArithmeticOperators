@@ -20,26 +20,26 @@ public class ArithmeticOperators {
     System.out.println(sum);
 		
 	
-		 // interesting division operator: what if I store the value of a/b (both being integer) in double variable
+		 // interesting division operator: what if we store the value of a/b (both being integer) in double variable
 		    
 		 double quot_d = a/b;
 		 System.out.println(quot_d);
 		    
 		//answer is not 2.5 because we have a and b both as integers and on performing integer division answer is supposed to be an integer,  but we stored it in double thus its 2.0
 		
-		    //to print 2.5 as an answer, we have to fread inputs in double format
+		    //to print 2.5 as an answer, we have to read inputs in double format. [Note that: even one of the operands being double will do the work.]
 		    double quot_db = 50.0/20.0;
 		    System.out.println(quot_db);
         
     // result of operations performed on double/float and integer value will be double/float, provided it being stored in double/float variable else sytem throws Type mismatch ERROR
 
-		  double ans = a-10.4;
+      double ans = a-10.4;
       System.out.println(ans); 
       
-    //error code: can't conver double/float to int
+    //error code: can't convert double/float to int
     
     int answ = a - 10.4;
-    System.out,println(answ
+    System.out.println(answ);
     
       
       
