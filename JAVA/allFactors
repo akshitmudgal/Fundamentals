@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Solution {
+    
+    public static void main(String[] args) {
+        // Taking the input integer of which factors is to be printed
+        Scanner s = new Scanner(System.in);
+
+		int n = s.nextInt();
+
+		int div= 2;
+		
+        //looping from 2 to n-1
+		while(div < n) {
+			if (n%div == 0){
+				System.out.print(div +" ");
+
+			}
+			div = div + 1;
+		}
+    }
+}
