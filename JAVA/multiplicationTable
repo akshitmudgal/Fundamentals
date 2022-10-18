@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        // Taking input of integer whose multiplication table is to be printed.
+
+        Scanner s = new Scanner(System.in);
+
+        int n = s.nextInt();
+
+        int count = 1; //to keep count of multiples 
+
+
+        while(count <= 10) {
+            int product = n * count; //note that scope of product variable is inside while loop only.
+            System.out.println(product);
+            count = count + 1;
+
+        }
+    }
+}
